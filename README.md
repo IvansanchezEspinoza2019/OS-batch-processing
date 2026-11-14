@@ -1,6 +1,8 @@
 Batch Procesing
 Simulación de gestión de procesos por lotes
 
+# batch processing operating system link ref
+https://www.tutorialspoint.com/operating_system/batch_processing_operating_system.htm
 
 Cola listos
 proceso en Ejecución
