@@ -1,19 +1,42 @@
-Batch Procesing
-Simulación de gestión de procesos por lotes
+The batch procesing operating system was one of the earliest OS. It works grouping similar jobs together into batches & execute them secuentially.  
 
-# batch processing operating system link ref
-https://www.tutorialspoint.com/operating_system/batch_processing_operating_system.htm
+# More about batch processing OS
+[batch_processing_operating_system](https://www.tutorialspoint.com/operating_system/batch_processing_operating_system.htm)
 
-Cola listos
-proceso en Ejecución
-cola de bloqueados
-Procesos terminados
+# Run program
+## Compile with ´gcc´  
+"""
+	 g++ proceso.cpp randomnum.cpp marco.cpp main.cpp -o main
+"""
+Then run (On Windows) ´.\main.exe´
 
-# Random Num
-Algoritmo de planificación Round Robin
 
-# Marco, (Actividad 11, 14)
-También llamado paginas físicas, se refiere a la paginación de la memoria en porciones de igual tamaño. Cada marco se asigna en exclusividad a un proceso
+# Program Workflow
+Jobs will execute an aritmetic operation, wich are: *'+', '-', '\*', '/'*.
+
+## Initial screen 
+
+##  Key options 
+
+## Process (or Job) States:
+### Ready Queue
+Procesess to be executed
+### Execution Proccess
+The current execution
+### Blocqued Queue
+Process that are waiting for an I/O to get back to Ready Queue or to be suspenedd
+### Finished
+Have fibnished their jobs
+
+
+## Classes
+### Proceso
+Atribuites & methods for simulating a job to be executed
+### Random Num (randomnum.cpp)
+Round Robin algorithm for planification
+
+### Marco, (Actividad 11, 14) (marco.cpp)
+Memory paging into equal-size portions. Each "marco" is assigned exclusively to a single process.
 
 Simulará la memoria, la cuál se dividirá en "marcos" - 45 marcos de 4 slots cada uno. El SO ocupara 3 marcos
 
@@ -21,10 +44,7 @@ Tamaño de memoria 180 en total
 
 
 
-# MD, compilar archivos
- g++ proceso.cpp main.cpp -o main
-
-# c++ error main.cpp:(.text+0x1b): undefined reference to 
+#### c++ error main.cpp:(.text+0x1b): undefined reference to 
 
 Stack overflow error
 https://stackoverflow.com/questions/14620435/c-error-undefined-reference-to-main
