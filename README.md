@@ -1,41 +1,44 @@
 The batch procesing operating system was one of the earliest OS. It works grouping similar jobs together into batches & execute them secuentially.  
 
-# More about batch processing OS
-[batch_processing_operating_system](https://www.tutorialspoint.com/operating_system/batch_processing_operating_system.htm)
+**More about batch processing OS:** [batch_processing_operating_system](https://www.tutorialspoint.com/operating_system/batch_processing_operating_system.htm)
 
-# Run program
-## Compile with ´gcc´  
-"""
+Compile with **gcc**:  
+```bash
 	 g++ proceso.cpp randomnum.cpp marco.cpp main.cpp -o main
-"""
-Then run (On Windows) ´.\main.exe´
+```
+Then run (On Windows) `.\main.exe`
 
 
-# Program Workflow
-Jobs will execute an aritmetic operation, wich are: *'+', '-', '\*', '/'*.
+### Program Workflow
+---
+Jobs will execute an aritmetic operation, wich are: `+, -, \*, /`.
 
-## Initial screen 
+#### Initial screen 
+Enter the number of jobs you want to run  
+Quantum is used to calculate how long a job will take in the execution state in a single iteration  
+![Inputs:](initial_setup.png)
 
-##  Key options 
+####  Key options 
 
-## Process (or Job) States:
-### Ready Queue
+
+#### Process (or Job) States:
+#### Ready Queue
 Procesess to be executed
-### Execution Proccess
+#### Execution Proccess
 The current execution
-### Blocqued Queue
+#### Blocqued Queue
 Process that are waiting for an I/O to get back to Ready Queue or to be suspenedd
-### Finished
+#### Finished
 Have fibnished their jobs
 
 
-## Classes
-### Proceso
+###  Classes
+###  Proceso
 Atribuites & methods for simulating a job to be executed
-### Random Num (randomnum.cpp)
+###  Random Num (randomnum.cpp)
 Round Robin algorithm for planification
 
-### Marco, (Actividad 11, 14) (marco.cpp)
+###  Marco, (Actividad 11, 14) (marco.cpp)
 Memory paging into equal-size portions. Each "marco" is assigned exclusively to a single process.
 
 Simulará la memoria, la cuál se dividirá en "marcos" - 45 marcos de 4 slots cada uno. El SO ocupara 3 marcos
