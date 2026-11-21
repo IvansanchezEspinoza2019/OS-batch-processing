@@ -13,6 +13,7 @@ Then run (On Windows) `.\main.exe`
 
 
 <br>
+
 ### Program Workflow
 ---
 Jobs will execute an aritmetic operation, wich are: `+, -, \*, /`.
@@ -41,6 +42,7 @@ Have fibnished their jobs
 
 
 <br>
+
 ###  Classes
 ---
 ###  Proceso
@@ -54,6 +56,7 @@ Memory paging into equal-size portions. Each "marco" is assigned exclusively to 
 
 
 <br>
+
 ### Refs & errors
 ---
 ### c++ error main.cpp:(.text+0x1b): undefined reference to 
