@@ -12,16 +12,15 @@ Then run (On Windows) `.\main.exe`
 
 
 
-
+<br>
 ### Program Workflow
 ---
 Jobs will execute an aritmetic operation, wich are: `+, -, \*, /`.
 
 ### Initial screen 
 ---
-Enter the number of jobs you want to run  
-Quantum is used to calculate how long a job will take in the execution state for a single iteration  
-
+**No. Procesos**: Enter the number of jobs you want to run  
+**Quantum**: is used to calculate how long a job will take in the execution state for a single iteration.
 
 ![Inputs:](initial_setup.png)
 
@@ -35,12 +34,13 @@ Procesess to be executed
 ### Execution Proccess
 The current execution  
 ### Blocqued Queue
-Process that are waiting for an I/O to get back to Ready Queue or to be suspened  
+Process that are waiting for an I/O to get back to Ready Queue or to be suspended  
 ### Finished
 Have fibnished their jobs
 
 
 
+<br>
 ###  Classes
 ---
 ###  Proceso
@@ -53,6 +53,7 @@ Memory paging into equal-size portions. Each "marco" is assigned exclusively to 
 
 
 
+<br>
 ### Refs & errors
 ---
 ### c++ error main.cpp:(.text+0x1b): undefined reference to 
