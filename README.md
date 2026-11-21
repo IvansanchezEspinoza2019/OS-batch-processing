@@ -2,9 +2,10 @@ The batch procesing operating system was one of the earliest OS. It works groupi
 
 **More about batch processing OS:** [batch_processing_operating_system](https://www.tutorialspoint.com/operating_system/batch_processing_operating_system.htm)
 
+<br>
 
-
-Compile with **gcc**:  
+### Compile with **gcc**:  
+---
 ```bash
 	 g++ proceso.cpp randomnum.cpp marco.cpp main.cpp -o main
 ```
